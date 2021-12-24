@@ -1,0 +1,11 @@
+*{
+	box-sizing: border-box;
+	background-color: #002137;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.section__margin {
+	margin: 4rem 6rem;
+}

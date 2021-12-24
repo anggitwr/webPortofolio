@@ -1,0 +1,153 @@
+.NavbarItems {
+	display: flex;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.navbar-logo {
+	color: #00CCFF;
+	font-weight: bold;
+	justify-self: start;
+	cursor: pointer;
+}
+
+.fa-react {
+	margin-left: 0.5rem;
+	font-size: 1.6rem;
+}
+
+.nav-menu {
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 50px;
+	list-style: none;
+	text-align: center;
+	width: 75vw;
+	justify-content: end;
+	margin-right: 1rem;
+	margin-top: 35px;
+}
+
+.nav-links {
+	color: #BFDBF7;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+	background-color: #1D5164;
+	color: white;
+	border-radius: 4px;
+	transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+	color: #1D5164;
+}
+
+.nav-links-mobile {
+	display: none;
+}
+
+.menu-icon {
+	display: none;
+}
+
+.anggit__navbar-contact button{
+	flex: 0.6;
+	width: 100%;
+	min-height: 50px;
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 14px;
+	color: #00CCFF;
+	margin-top: 1rem;
+	padding: 0 1rem;
+	cursor: pointer;
+	border: 2px solid #00CCFF;
+	border-radius: 5px;
+}
+@media screen and (max-width: 900px){
+	.NavbarItems {
+		position: relative;
+	}
+
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 510px;
+		position: absolute;
+		top: 100px;
+		left: -130%;	
+		transition: all 0.5s ease;
+		opacity: 1;
+	}
+
+	.nav-menu.active {
+		background: #002137;
+		left: 0;
+		transition: all 0.5s ease;
+		z-index:1;
+	}
+
+	.nav-links {
+		text-align: center;
+		padding: 2rem;
+		width: 100%;
+		display: table;
+	}
+	
+	.nav-links:hover{
+		background-color: #002E4E;
+		color: #00CCFF;
+		border-radius: 0;
+	}
+
+	.navbar-logo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(25%, 50%);
+	}
+
+	.menu-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
+
+	.fa-times {
+		color: #1D5164;
+		font-size: 2rem;
+	}
+
+	.nav-links-mobile {
+		display: block;
+		text-align: center;
+		padding: 1.5rem;
+		margin: 2rem auto;
+		width: 80%;
+		background: #FDC500;
+		text-decoration: none;
+		color: #fff;
+		font-size: 1rem;
+	}
+
+	.nav-links-mobile:hover {
+		background: #1D5164;
+		color: #FDC500;
+		transition: 300ms;
+	}
+
+	.anggit__navbar-contact button{
+		display: none;
+	}
+}
