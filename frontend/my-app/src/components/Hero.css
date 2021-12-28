@@ -15,8 +15,8 @@
 .anggit__header-content h1{
 	font-family: Poppins;
 	font-weight: 800;
-	font-size: 60px;
-	color: #BFDBF7;
+	font-size: 65px;
+	color: rgb(180, 219, 255);;
 }
 
 .anggit__header-content h3{
@@ -59,7 +59,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5rem;
+	margin-top: 9rem;
 }
 
 .anggit__header-image img{
@@ -81,7 +81,7 @@
 	}
 	.anggit__header-content {
 		margin: 0 0 5rem;
-		margin-top: 2rem;
+		margin-top: 7rem;
 	}
 	.anggit__header-button{
 		display: 100%;

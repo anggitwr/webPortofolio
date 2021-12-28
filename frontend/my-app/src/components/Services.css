@@ -1,0 +1,142 @@
+.anggit__services{
+	display: flex;
+}
+
+.anggit__services-content{
+	margin-top: 5rem;
+	margin-right: 5rem;
+}
+
+.anggit__services-title h2{
+	font-family: Poppins;
+	color: #BFDBF7;
+	font-size: 37px;
+}
+.anggit__services-rectangle{
+	width: 100px;
+	height: 4px;
+	background-color: #00CCFF;
+}
+
+.anggit__services-grup{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	margin-top: 79px;
+}
+
+.anggit__services-ui{
+	flex: 1;
+	display: flex;
+	justify-content: top;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-right: 5rem;
+	color: rgb(180, 219, 255);;
+}
+
+.anggit__services-ui h4{
+	margin-top: 46px;
+	font-size: 20px;
+}
+
+.anggit__services-ui p{
+	color: #5499B5;
+	margin-top: 12px;
+	font-size: 14px;
+}
+
+.anggit__services-dev{
+	flex: 1;
+	display: flex;
+	color: rgb(180, 219, 255);
+	align-items: flex-start;
+	justify-content: top;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-right: 5rem;
+}
+
+.anggit__services-dev h4{
+	margin-top: 46px;
+	font-size: 20px;
+}
+
+.anggit__services-dev p{
+	color: #5499B5;
+	margin-top: 12px;
+	font-size: 14px;
+}
+
+.anggit__services-box{
+	position: relative;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: #002E4E;
+	margin-left: 15rem;
+}
+
+.anggit__services-box div{
+	text-align: center;
+	font-size: 30px;
+	background-color: #002E4E;
+}
+
+.anggit__services-box h2{
+	background-color: #002E4E;
+	color: #00CCFF;
+	margin-top: 20px;
+}
+
+.anggit__services-box p{
+	background-color: #002E4E;
+	color: #5499B5;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+.anggit__services-experience h2{
+	margin-top: 50px;
+}
+.anggit__services-flex p{
+	font-size: 14px;
+	margin-bottom: 55px;
+}
+/* .anggit__services-box img{
+	width: 100%;
+	height: auto;
+} */
+
+/* .coba{
+  font-size: 18px;
+	color: white;
+	background-image: url(../image/Rectangle.png);
+	width: 100px;
+	height: 100px;
+} */
+
+@media screen and (max-width: 900px) {
+	.anggit__services-grup{
+		flex-direction: column;
+		margin-top: 35px;
+	}
+	.anggit__services-box{
+		margin-top: 5rem;
+		margin-left: -0.5rem;
+	}
+	.anggit__services-box p{
+		font-size: 14px;
+	}
+	.anggit__services-box h2{
+		font-size: 25px;
+	}
+	.anggit__services-experience h2{
+		margin-top: 50px;
+	}
+	.anggit__services-flex p{
+		font-size: 14px;
+		margin-bottom: 55px;
+	}
+}
