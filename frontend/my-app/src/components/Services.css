@@ -139,4 +139,10 @@
 		font-size: 14px;
 		margin-bottom: 55px;
 	}
+	.anggit__services-ui{
+		margin: 0;
+	}
+	.anggit__services-dev{
+		margin-top: 2rem;
+	}
 }

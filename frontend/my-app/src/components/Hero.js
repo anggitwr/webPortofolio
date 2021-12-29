@@ -6,6 +6,7 @@ import dribble from '../image/dribble.png';
 import instagram from '../image/instagram.png';
 import linkedin from '../image/linkedin.png';
 
+
 function Hero() {
 	return (
 		<>

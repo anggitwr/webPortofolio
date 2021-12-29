@@ -35,8 +35,7 @@ class Navbar extends Component {
 				<div className='anggit__navbar-contact'>
 					<button type='button'>Contact me</button>
 				</div>
-				</nav>
-				
+			</nav>	
 		);
 	}
 }

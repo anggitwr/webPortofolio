@@ -1,9 +1,13 @@
-.NavbarItems {
+.NavbarItems{
 	display: flex;
 	/* justify-content: center; */
-	display: flex;
+	flex: 1;
 	/* align-items: center; */
 	font-size: 1.2rem;
+
+	padding-bottom: 1rem;
+
+	margin-bottom: 5rem;
 }
 
 .navbar-logo {
@@ -29,7 +33,7 @@
 	width: 75vw;
 	justify-content: end;
 	margin-right: 1rem;
-	margin-top: 35px;
+	margin-top: 15px;
 }
 
 .nav-links {
@@ -55,7 +59,21 @@
 
 .menu-icon {
 	display: none;
+	margin-top: 4rem;
 }
+
+ /* nav{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0ch;
+	list-style-type: none;
+}
+
+nav li{
+	display: block;
+
+} */
 
 .anggit__navbar-contact button{
 	flex: 0.6;
@@ -65,7 +83,7 @@
 	font-weight: normal;
 	font-size: 14px;
 	color: #00CCFF;
-	margin-top: 1rem;
+	margin-top: 0rem;
 	padding: 0 1rem;
 	cursor: pointer;
 	border: 2px solid #00CCFF;
@@ -74,6 +92,7 @@
 @media screen and (max-width: 900px){
 	.NavbarItems {
 		position: relative;
+		margin-top: 0px;
 	}
 
 	.nav-menu {
@@ -82,7 +101,7 @@
 		width: 100%;
 		height: 510px;
 		position: absolute;
-		top: 100px;
+		top: 150px;
 		left: -130%;	
 		transition: all 0.5s ease;
 		opacity: 1;
@@ -110,6 +129,7 @@
 
 	.navbar-logo{
 		position: absolute;
+		margin-top: 4rem;
 		/* transform: translate(25%, 50%); */
 	}
 
@@ -118,7 +138,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		transform: translate(-100%, 10%);
+		transform: translate(-100%);
 		font-size: 2.5rem;
 		cursor: pointer;
 	}
@@ -132,8 +152,8 @@
 		display: block;
 		text-align: center;
 		padding: 1.5rem;
-		margin: 2rem auto;
-		width: 80%;
+		margin: 0rem; 
+		width: 100%;
 		background: #FDC500;
 		text-decoration: none;
 		color: #fff;

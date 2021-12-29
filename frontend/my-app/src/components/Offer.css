@@ -1,0 +1,76 @@
+.anggit__offer{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.anggit__offer-content{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin-top: 55px;
+}
+
+.anggit__offer-content h1{
+	color: #BFDBF7;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.anggit__offer-content p{
+	color: #5499B5;
+	font-size: 15px;
+	width: 390px;
+	margin-top: 40px;
+}
+
+.anggit__offer-contentright{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin-top: 150px;
+}
+
+.anggit__offer-contentright h3{
+	 color: #BFDBF7;
+	 font-weight: 700;
+	 width: 406px;
+	 margin-bottom: 34px;
+	 font-size: 23px;
+}
+
+.anggit__offer-contentright input{
+	background-color: #002E4E;
+	height: 56px;
+	width: 80%;
+	outline: 0ch;
+	border: none;
+	margin-bottom: 10px;
+}
+
+::placeholder{
+	color: rgba(46, 103, 126, 0.6);
+	font-weight: 700;
+}
+
+input{
+	padding: 22px;
+	color: #BFDBF7;
+	cursor: pointer;
+}
+
+textarea{
+	padding: 22px;
+	width: 80%;
+	background-color: #002E4E;
+	color: #BFDBF7;
+	outline: none;
+	border: none;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.anggit__offer{
+		flex-direction: column;
+	}
+}
