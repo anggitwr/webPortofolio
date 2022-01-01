@@ -15,7 +15,7 @@ const Offer = ()=> {
 	}
 	return(
 		<>
-		<div className='anggit__offer section__margin'>
+		<div className='anggit__offer section__margin' id='offer'>
 			<div className='anggit__offer-content'>
 				<h1>Interested in </h1>
 				<h1> working with me?</h1>

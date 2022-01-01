@@ -1,26 +1,16 @@
 .NavbarItems{
 	display: flex;
-	/* justify-content: center; */
 	flex: 1;
-	/* align-items: center; */
 	font-size: 1.2rem;
-
 	padding-bottom: 1rem;
-
 	margin-bottom: 5rem;
 }
 
 .navbar-logo {
 	color: #00CCFF;
 	font-weight: bold;
-	/* justify-self: start; */
 	cursor: pointer;
 	margin-top: 20px;
-}
-
-.fa-react {
-	margin-left: 0.5rem;
-	font-size: 1.6rem;
 }
 
 .nav-menu {
@@ -62,6 +52,9 @@
 	margin-top: 4rem;
 }
 
+.nav-links{
+	cursor: pointer;
+}
  /* nav{
 	position: fixed;
 	width: 100%;
@@ -102,7 +95,7 @@ nav li{
 		height: 510px;
 		position: absolute;
 		top: 150px;
-		left: -130%;	
+		left: -140%;	
 		transition: all 0.5s ease;
 		opacity: 1;
 	}

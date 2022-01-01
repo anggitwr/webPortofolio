@@ -116,11 +116,37 @@
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 0px;
+		width: 130%;
 	}
 
 	.anggit__portofolio-container-left div{
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 0px;
+		width: 130%;
+	}
+	.anggit__portofolio-right div{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.anggit__portofolio-left div{
+		margin-right: 0px;
+	}
+
+	.anggit__portofolio-left h3{
+		font-size: 17px;
+	}
+
+	.anggit__portofolio-right h3{
+		font-size: 17px;
+	}
+
+	.anggit__portofolio-left p{
+		font-size: 12px;
+	}
+
+	.anggit__portofolio-right p{
+		font-size: 12px;
 	}
 }

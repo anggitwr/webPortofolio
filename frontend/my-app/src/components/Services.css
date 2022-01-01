@@ -12,6 +12,7 @@
 	color: #BFDBF7;
 	font-size: 37px;
 }
+
 .anggit__services-rectangle{
 	width: 100px;
 	height: 4px;
@@ -122,6 +123,9 @@
 		flex-direction: column;
 		margin-top: 35px;
 	}
+	.anggit__services-content{
+		margin-right: 0px;
+	}
 	.anggit__services-box{
 		margin-top: 5rem;
 		margin-left: -0.5rem;
@@ -144,5 +148,6 @@
 	}
 	.anggit__services-dev{
 		margin-top: 2rem;
+		display: 100%;
 	}
 }

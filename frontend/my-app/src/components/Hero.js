@@ -6,17 +6,19 @@ import dribble from '../image/dribble.png';
 import instagram from '../image/instagram.png';
 import linkedin from '../image/linkedin.png';
 
-
 function Hero() {
 	return (
 		<>
-		<div className='anggit__header section__margin'>
+		<div className='anggit__header section__margin' id='home'>
 			<div className='anggit__header-content'>
 				<h3 className='anggit-text'>Hello</h3>
 				<h1 className='text-name'>I'm Anggit</h1>
 				<p>I am Front end Developer and i like UIUX because desain is my hobby.I am Front end Developer and i like UIUX because desain is my hobby.I am Front end Developer and i like UIUX because desain is my hobby</p>
 					<div className='anggit__header-button'>
-						<button type='button'>Download CV</button>
+						<button type='button' onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://drive.google.com/file/d/19N4vnWFdCL6TwpYzMG22z91TscO1BjX9/view?usp=sharing';
+      }}>Download CV</button>
 					</div>
 			</div>
 			<div className='anggit__header-image'>

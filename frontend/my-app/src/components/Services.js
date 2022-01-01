@@ -6,7 +6,7 @@ import Dev from '../image/dev.png';
 function Services() {
 	return(
 		<>
-		<div className='anggit__services section__margin'>
+		<div className='anggit__services section__margin' id='service'>
 			<div className='anggit__services-content'>
 				<div className='anggit__services-title'>
 					<h2>Services</h2>

@@ -77,11 +77,14 @@
 
 @media screen and (max-width: 900px){
 
+	/* .NavbarItems{
+		margin: 0%;
+	} */
 	.anggit__header {
 		flex-direction: column;
 	}
 	.anggit__header-content {
-		margin: 0rem;
+		margin-top: 5rem;
 	}
 	.anggit__header-button{
 		display: 100%;
@@ -97,5 +100,4 @@
 		width: auto;
 		height: auto;
 	}
-
 }

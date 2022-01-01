@@ -8,7 +8,7 @@ import Wd from '../image/appwd.png';
 function Portofolio() {
 	return(
 		<>
-		<div className='anggit__portofolio section__margin'>
+		<div className='anggit__portofolio section__margin' id='portofolio'>
 			<div className='anggit__portofolio-content'>
 				<h2>My Latest Work</h2>
 				<div className='anggit__portofolio-rectangle'></div>

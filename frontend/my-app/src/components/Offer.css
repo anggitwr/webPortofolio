@@ -20,7 +20,7 @@
 .anggit__offer-content p{
 	color: #5499B5;
 	font-size: 15px;
-	width: 390px;
+	/* width: 390px; */
 	margin-top: 40px;
 }
 
@@ -34,7 +34,7 @@
 .anggit__offer-contentright h3{
 	 color: #BFDBF7;
 	 font-weight: 700;
-	 width: 406px;
+	 /* width: 406px; */
 	 margin-bottom: 34px;
 	 font-size: 23px;
 }
@@ -73,4 +73,8 @@ textarea{
 	.anggit__offer{
 		flex-direction: column;
 	}
+	/* .anggit__offer-content{
+		margin-left: 0;
+		margin-right: 0;
+	} */
 }
