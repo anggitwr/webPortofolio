@@ -109,7 +109,7 @@
 	}
 	.anggit__portofolio-container{
 		display: flex;
-		flex: 2;
+		flex: 1;
 		flex-direction: column;
 		width: 70%;
 		height: 70%;

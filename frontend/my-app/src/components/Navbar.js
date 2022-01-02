@@ -14,7 +14,7 @@ class Navbar extends Component {
 		return(
 			<nav className="NavbarItems section__margin">
 				<h1 className="navbar-logo">
-					Anggit
+					Why
 				</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}>

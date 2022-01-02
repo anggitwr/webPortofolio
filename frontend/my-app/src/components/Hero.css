@@ -104,12 +104,12 @@
 		height: auto;
 	}
 	.anggit__header-content h3{
-		font-size: 13px;
+		font-size: 17px;
 	}
 	.anggit__header-content h1{
-		font-size: 15px;
+		font-size: 35px;
 	}
 	.anggit__header-content p{
-		font-size: 10px;
+		font-size: 14px;
 	}
 }
