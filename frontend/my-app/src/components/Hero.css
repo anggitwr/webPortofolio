@@ -82,22 +82,34 @@
 	} */
 	.anggit__header {
 		flex-direction: column;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 	.anggit__header-content {
 		margin-top: 5rem;
 	}
 	.anggit__header-button{
-		display: 100%;
+		display: 80%;
 	}
 	
 	.anggit__header-icon{
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		width: 70%;
 	}
 	.anggit__header-icon img{
 		margin-right: 2rem;
 		width: auto;
 		height: auto;
+	}
+	.anggit__header-content h3{
+		font-size: 13px;
+	}
+	.anggit__header-content h1{
+		font-size: 15px;
+	}
+	.anggit__header-content p{
+		font-size: 10px;
 	}
 }

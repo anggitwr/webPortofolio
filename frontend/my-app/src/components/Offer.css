@@ -72,6 +72,18 @@ textarea{
 @media screen and (max-width: 900px) {
 	.anggit__offer{
 		flex-direction: column;
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+	.anggit__offer-content h1{
+		font-size: 25px;
+	}
+	.anggit__offer-contentright input{
+		border-radius: 10px;
+	}
+	.anggit__offer-contentright textarea{
+		border-radius: 10px;
+		outline: none;
 	}
 	/* .anggit__offer-content{
 		margin-left: 0;

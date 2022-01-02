@@ -100,8 +100,12 @@
 }
 
 @media screen and (max-width: 900px) {
-	.anggit__portofolio-content{
-		margin: 0;
+	.anggit__portofolio{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	.anggit__portofolio-content h2{
+		font-size: 25px;
 	}
 	.anggit__portofolio-container{
 		display: flex;
