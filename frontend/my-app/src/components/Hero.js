@@ -13,7 +13,7 @@ function Hero() {
 			<div className='anggit__header-content'>
 				<h3 className='anggit-text'>Hello</h3>
 				<h1 className='text-name'>I'm Anggit</h1>
-				<p>I am Mobile Developer, i interest in frontend and UIUX Design because create code and design is my hobby</p>
+				<p>I am Mobile Developer, I interest in frontend and UIUX Design because create code and design is my hobby</p>
 					<div className='anggit__header-button'>
 						<button type='button' onClick={(e) => {
       e.preventDefault();
