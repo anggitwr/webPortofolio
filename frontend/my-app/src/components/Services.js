@@ -25,16 +25,16 @@ function Services() {
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
 					<img src={Ui} alt='ui-icon'></img>
-					<h4>UI Design</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis in odio arcu, ut ut in congue integer. Ut nibh et sit lectus volutpat.</p>
+					<h4>UIUX Design</h4>
+					<p>Designing UI from wireframe to prototype. Creating designs that make it easy for users to use the application</p>
 				</div>
 				<div className='anggit__services-dev' data-aos="fade-right" data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1800"
     data-aos-easing="ease-in-out">
 					<img src={Dev} alt='dev-icon'></img>
-					<h4>FrontEnd Developer</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis in odio arcu, ut ut in congue integer. Ut nibh et sit lectus volutpat.</p>
+					<h4>Mobile Developer</h4>
+					<p>design and develop android applications and integrate with other teams to analyze data from the API and then implement it.</p>
 				</div>
 				<div className='anggit__services-box' data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
 					<div className='anggit__services-experience'>
