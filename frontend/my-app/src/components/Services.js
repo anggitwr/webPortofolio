@@ -34,19 +34,19 @@ function Services() {
     data-aos-easing="ease-in-out">
 					<img src={Dev} alt='dev-icon'></img>
 					<h4>Mobile Developer</h4>
-					<p>design and develop android applications and integrate with other teams to analyze data from the API and then implement it.</p>
+					<p>design and develop android applications and integrate with other teams to analyze data from the API and then implement it. not only that evaluating and implementing new technology is our job</p>
 				</div>
 				<div className='anggit__services-box' data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
 					<div className='anggit__services-experience'>
-						<h2>3+</h2>
+						<h2>1</h2>
 						<p>years of experience</p>
 					</div>
 					<div className='anggit__services-flext'>
-						<h2>100</h2>
+						<h2>4</h2>
 						<p>Completed projects</p>
 					</div>
 					<div className='anggit__services-flex'>
-						<h2>90</h2>
+						<h2>4</h2>
 						<p>Happy client</p>
 					</div>
 				</div>

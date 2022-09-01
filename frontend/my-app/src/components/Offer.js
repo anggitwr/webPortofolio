@@ -25,7 +25,7 @@ const Offer = ()=> {
 			<div className='anggit__offer-content' data-aos="fade-right" data-aos-offset="100" data-aos-delay="350" data-aos-duration="2000" data-aos-easing="ease-in-out">
 				<h1>Interested in </h1>
 				<h1> working with me?</h1>
-				<p>Do you need a digital product?, I have 3 years experience as a UI and Frontend dev</p>
+				<p>Do you need a digital product?, I have 1 years experience as a UI and Mobile dev</p>
 			</div>
 			<form className='anggit__offer-contentright' onSubmit={sendEmail} data-aos="fade-left" data-aos-offset="100" data-aos-delay="350" data-aos-duration="2000" data-aos-easing="ease-in-out">
 				<h3>Let’s message me and make something together!</h3>

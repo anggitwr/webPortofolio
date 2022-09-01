@@ -17,7 +17,7 @@ function Hero() {
 					<div className='anggit__header-button'>
 						<button type='button' onClick={(e) => {
       e.preventDefault();
-      window.location.href='https://drive.google.com/file/d/12hNOCgcvLzE3uY5ZHbC1pzLCESwhrwr7/view?usp=sharing';
+      window.location.href='https://drive.google.com/file/d/1Js3MiY-mY4UKWVEQqyX8KcQBRNA6j7Bi/view?usp=sharing';
       }}>Download CV</button>
 					</div>
 			</div>
